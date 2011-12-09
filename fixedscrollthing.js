@@ -1,3 +1,5 @@
+/* by frank at almostflan.com
+ */
 (function($) {
 	/*
 	 * thresh is the vertical threshold before "scrolling" happens
