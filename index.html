@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	#track {
+		position: relative; /* the only necessary css */
+		height: 1500px; 
+	}
+	#ifloat {
+		border: 1px solid #ccc;
+		width: 200px;
+	}
+</style>
+<script type="text/javascript" src="jquery-1.7.min.js"></script>
+<script type="text/javascript" src="fixedscrollthing.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$("#ifloat").fst(100);
+	});
+</script>
+</head>
+<body>
+<div style="float:right">
+The track needs to have the css <b>position: relative</b> set and the floating element will have it's <b>top</b> and <b>position</b> messed with.<br/>
+And now some spacer text...<br/>
+And now some spacer text...<br/>
+And now some spacer text...<br/>
+And now some spacer text...<br/>
+And now some spacer text...<br/>
+And now some spacer text...<br/>
+This is the track:
+<div id="track">
+	<div id="ifloat">ZOMG I'M STUCK</div>
+</div>
+</div>
+<div>
+maybe some other junk here<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+should maybe get one of those chain emails that had you scroll down...
+</div>
+
+</body>
+</html>
